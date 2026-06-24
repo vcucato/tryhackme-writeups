@@ -46,7 +46,7 @@ Aprendi sobre Port Forwarding e como ele serve pra configurar dispositivos pesso
 
 Aprendi também sobre Firewalls e a diferença entre Stateless e Stateful. O Stateless usa um conjunto de regras fixas e analisa pacote por pacote, sem guardar informação sobre a conexão. O Stateful analisa o comportamento da conexão inteira, sendo dinâmico nas suas decisões. Por consumir menos recursos, o Stateless é uma opção mais resistente contra ataques DDoS, já que não precisa rastrear o estado de milhares de conexões simultâneas.
 
-No tópico sobre VPN, aprendi sobre os benefícios de privacidade, anonimato e acesso remoto seguro a redes internas, além da diferença entre as tecnologias PPP, PPTP e IPsec — essa foi inclusive a parte que mais me trouxe dificuldade no módulo.
+No tópico sobre VPN, aprendi sobre os benefícios de privacidade, anonimato e acesso remoto seguro a redes internas, além da diferença entre as tecnologias PPP, PPTP e IPsec. Essa foi inclusive a parte que mais me trouxe dificuldade no módulo.
 
 Por fim, aprendi a diferença entre Switch e Router: o Router conecta meus dispositivos à rede externa, me permitindo acessar a internet, enquanto o Switch conecta meus dispositivos entre eles dentro da mesma rede local.
 
@@ -59,3 +59,35 @@ Entender as diferenças entre as tecnologias de VPN (PPP, PPTP e IPsec) foi a pa
 
 ## Aplicação em Cybersecurity
 Esse conhecimento é aplicável em segurança por me permitir entender conceitos fundamentais de defesa de rede, como Firewall e VPN. Isso me ajuda a visualizar formas eficientes de manter a segurança e privacidade de uma rede, além de entender como o Firewall pode ser importante para defesa dependendo do tipo de ataque recebido (como DDoS).
+
+---
+
+# How The Web Works - HTML, CSS, JS e Segurança Web
+
+**Módulo:** Pre Security > How The Web Works  
+**Status:** Em andamento
+
+---
+
+## O que é a sessão
+A sessão aborda como uma página web é construída, cobrindo HTML, CSS e JavaScript, além de introduzir vulnerabilidades comuns relacionadas ao frontend de um site.
+
+---
+
+## O que aprendi
+
+Aprendi bastante sobre como funciona o HTML de uma página e qual a diferença entre o uso do HTML (código responsável pela estrutura e exibição da página), o CSS (usado para estilização) e o JavaScript (usado para adicionar funcionalidades e interatividade à página).
+
+Dentro do módulo, aprendi sobre Exposição de Dados Sensíveis (Sensitive Data Exposure) e sobre como é importante revisar o código HTML de um site para garantir que ele não exponha dados sensíveis, como credenciais de administradores ou de usuários deixadas acidentalmente em comentários no código.
+
+Além disso, o tópico abordou o HTML Injection e como a sanitização de dados é fundamental para manter um site seguro. Tive um pouco de dificuldade para entender os riscos reais que isso representa, mas, estudando mais sobre o assunto, entendi que o HTML Injection pode facilmente evoluir para um XSS (Cross-Site Scripting), o que poderia levar o usuário final a um site de phishing ou resultar no roubo de cookies de sessão, sem que a vítima perceba.
+
+---
+
+## O que foi mais difícil
+Entender a gravidade real dos riscos por trás do HTML Injection e como ele se conecta a um ataque mais amplo como o XSS.
+
+---
+
+## Aplicação em Cybersecurity
+É importante ter esses conceitos em mente na área de cybersecurity para saber quais vulnerabilidades buscar na hora de uma análise de segurança, e saber exatamente o que corrigir em códigos HTML nesses casos. Seja removendo dados sensíveis expostos, seja implementando sanitização adequada de inputs do usuário.
