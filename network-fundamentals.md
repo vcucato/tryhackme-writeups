@@ -91,3 +91,35 @@ Entender a gravidade real dos riscos por trás do HTML Injection e como ele se c
 
 ## Aplicação em Cybersecurity
 É importante ter esses conceitos em mente na área de cybersecurity para saber quais vulnerabilidades buscar na hora de uma análise de segurança, e saber exatamente o que corrigir em códigos HTML nesses casos. Seja removendo dados sensíveis expostos, seja implementando sanitização adequada de inputs do usuário.
+
+---
+
+# How The Web Works - Componentes e Infraestrutura
+
+**Módulo:** Pre Security > How The Web Works  
+**Status:** Finalizado.
+
+---
+
+## O que é a sessão
+A sessão aborda os componentes que ajudam o funcionamento da web, como WAF, CDN, Databases, Load Balancers (e os algoritmos round-robin e weighted) e Health Check.
+
+---
+
+## O que aprendi
+
+Aprendi bastante sobre como o WAF é útil para proteger contra ataques na camada de aplicação web, como XSS e SQL Injection (assuntos abordados também no módulo anterior). O WAF analisa o conteúdo da requisição HTTP, e não só IP/porta como um firewall tradicional.
+
+Aprendi sobre como o Load Balancer é útil para garantir que um site se mantenha ativo mesmo com alto tráfego, e garante um certo "backup" caso um servidor caia. Ele atua distribuindo as requisições entre vários servidores, repartindo a carga e podendo usar algoritmos como round-robin (distribuição igual) ou weighted (distribuição baseada na capacidade/ocupação de cada servidor).
+
+Além disso, aprendi sobre como o CDN serve para diminuir o tráfego de um site, hospedando conteúdo estático (como código JS, CSS, imagens e vídeos) em servidores espalhados pelo mundo, entregando o conteúdo a partir do servidor mais próximo do usuário. Isso é diferente de conteúdo dinâmico, como a página inicial de um blog, que muda com frequência e por isso não se beneficia da mesma forma do CDN.
+
+---
+
+## O que foi mais difícil
+Entender como o CDN e o Load Balancer funcionam na prática foi um pouco desafiador. Mas, estudando mais a fundo, entendi que são conceitos importantes para garantir o funcionamento de um servidor mesmo diante de ataques comuns, como o DDoS.
+
+---
+
+## Aplicação em Cybersecurity
+Isso tudo se aplica em cybersecurity de várias maneiras. O CDN é importante para diminuir o tráfego de sites e ajudar a mitigar ataques de sobrecarga de servidor, como o DDoS. O Load Balancer é fundamental para garantir que um site continue funcionando, já que distribui as requisições e evita sobrecarga em um único servidor. O WAF protege analisando o conteúdo da requisição HTTP em busca de ataques na camada de aplicação, enquanto o Health Check garante o bom funcionamento ao checar constantemente se cada servidor continua ativo e respondendo corretamente.
