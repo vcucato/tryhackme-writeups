@@ -86,3 +86,27 @@ Entender de forma clara como ler o DevTools e como encontrar informações como 
 
 ## Aplicação em Cybersecurity
 O DevTools é uma ferramenta valiosa para investigar suspeitas de phishing, permitindo checar a infraestrutura real por trás de um site. Já o conceito de Session Hijacking reforça a importância de proteger cookies de sessão, já que eles funcionam como uma chave de acesso equivalente a uma senha.
+
+---
+
+# Computer Fundamentals - Virtualisation Basics
+
+**Status:** Em andamento
+
+---
+
+## O que é a sessão
+A sessão fala sobre o porque a virutalização é uma fundação tão importante no TI moderno. Tanto pra maximizar a eficiência de um hardware quanto pra isolar de forma segura alguns ambientes.
+---
+
+## O que aprendi
+Deu pra entender bem alguns conceitos e como a virutalização, lab machine,  container, etc. O hypervisor é uma ferramenta extremamente importante no gerenciamento de máquinas virtuais. Ele divide o computador em multiplas máquinas, separa o pedacinho de cada componente pra essas máquinas, mantém tudo isolado e seguro e getencia o ciclo de vida delas. Como um síndico em um prédio cuidaria de cada apartamento e inquilinos. Deu pra entender bem também como é importante pra uma empresa ter essas implementaçoes direto no hardware pra conseguir eficiência, rápidez e economizar recurso sem disperdício.
+
+---
+
+## O que foi mais difícil
+Entender todas as funções do hypervisor.
+---
+
+## Aplicação em Cybersecurity
+A virtualização é uma ferramenta extremamente importante pra realização de testes e pra verificação de algumas coisas. Ao invés de executar um arquivo direto no SO principal fica muito mais seguro se isso for feito numa VM (da forma correta isolando a VM da máquina pricipal, claro). Dito isso, a virutalização é um ajudante importante na cybersecurity e ainda tem sua importância em situações diferentes como a de gerenciamento de servidores pra empresas. 
