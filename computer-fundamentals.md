@@ -106,6 +106,7 @@ Deu pra entender bem alguns conceitos e como a virutalização, lab machine,  co
 
 ## O que foi mais difícil
 Entender todas as funções do hypervisor.
+
 ---
 
 ## Aplicação em Cybersecurity
