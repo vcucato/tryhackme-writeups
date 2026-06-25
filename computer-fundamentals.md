@@ -54,3 +54,35 @@ Entender como um dispositivo IoT pode ser explorado por um atacante, até aprofu
 
 ## Aplicação em Cybersecurity
 Isso tudo é aplicável em cybersecurity por me permitir entender melhor os pontos de ataque de um hacker e quais dispositivos estão vulneráveis a pessoas mal-intencionadas. Assim, consigo ter uma visão melhor de quais dispositivos precisam de mais atenção e como podem ser defendidos.
+
+---
+
+---
+
+# Computer Fundamentals - Client-Server Model
+
+**Status:** Em andamento
+
+---
+
+## O que é a sessão
+A sessão fala sobre o básico de cliente e servidor, explicando os passos de como uma solicitação é feita até o momento em que é entregue ao usuário final.
+
+---
+
+## O que aprendi
+Consegui absorver bastante coisa, como os passos que uma solicitação percorre (Service → Client → Server, Request and Response, Protocol, Port e DNS). Sobre como cada um funciona: o protocolo define a forma como o cliente vai falar com o servidor; a porta serve para identificar onde um serviço específico está rodando no sistema, e quando um cliente quer acessar um servidor, ele deve se conectar à porta correta; e o DNS traduz o nome do site digitado pelo usuário em um endereço IP, que é enviado para o servidor.
+
+Aproveitando o que foi estudado, ressalto a importância de cada um desses tópicos em cybersecurity, já que, em suspeita de phishing, podemos usar o DevTools para analisar a aba Network e checar (com ferramentas como WHOIS) se o IP que estou acessando está correto, ou se a página acessada foi adulterada para se parecer com outra legítima.
+
+Enquanto estudava sobre o assunto, aprendi sobre o **Session Hijacking**, que acontece quando um atacante consegue roubar os cookies de sessão de um usuário e acessar uma página sem sequer ter a senha dele, usando o cookie como uma "chave" que faz o site reconhecer o atacante como se ele fosse o usuário roubado.
+
+---
+
+## O que foi mais difícil
+Entender de forma clara como ler o DevTools e como encontrar informações como IP e Host por lá.
+
+---
+
+## Aplicação em Cybersecurity
+O DevTools é uma ferramenta valiosa para investigar suspeitas de phishing, permitindo checar a infraestrutura real por trás de um site. Já o conceito de Session Hijacking reforça a importância de proteger cookies de sessão, já que eles funcionam como uma chave de acesso equivalente a uma senha.
