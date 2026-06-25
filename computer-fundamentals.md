@@ -111,3 +111,29 @@ Entender todas as funções do hypervisor.
 
 ## Aplicação em Cybersecurity
 A virtualização é uma ferramenta extremamente importante pra realização de testes e pra verificação de algumas coisas. Ao invés de executar um arquivo direto no SO principal fica muito mais seguro se isso for feito numa VM (da forma correta isolando a VM da máquina pricipal, claro). Dito isso, a virutalização é um ajudante importante na cybersecurity e ainda tem sua importância em situações diferentes como a de gerenciamento de servidores pra empresas. 
+
+---
+
+# Computer Fundamentals - Cloud Computing Fundamentals
+
+**Status:** Finalizado
+
+---
+
+## O que é a sessão
+A sessão fala sobre as idéias base por trás do cloud computing e como ela permite flexibilização, escalamento e custo benefício pra recursos de computação. 
+
+---
+
+## O que aprendi
+Aprendi bastante coisa sobre serviços de nuvem como a nuvem publica (que são serviços que acessamos através da internet compartilhados entre pessoas e companhias), núvem privada (uma núvem construída pra uma única empresa pra que ela tenha mais controle e segurança) e núvem hibrida (que é uma junção de ambos os citados acima pra manter a segurança de algumas informações enquanto ainda mantém disponibilidade em alta demanda. Além disso aprendi sobre os serviços de nuvem como o IaaS (onde alugamos partes básicas de um computador como servidores e armazenamento através da nuvem), o PaaS (serviço que permite um ambiente "ready-to-use" pra construir e rodar aplicações sem gerenciar servidores) e o SaaS (um software que você usa online através do browser ou app como o gmail por exemplo). Em resumo, a sessão foi útil pra entender os benefícios e caracteristícas da nuvem.
+
+---
+
+## O que foi mais difícil
+Entender as diferenças entre o IaaS e o PaaS.
+
+---
+
+## Aplicação em Cybersecurity
+Todo o conhecimento dessa sessão é importante em cybersecurity pra me ajudar a entender melhor como enxergar o gerenciamento de um site em nuvem. Qual o melhor tipo pra cada site e/ou aplicação além de conseguir visualizar de uma forma mais ampla como posso direcionar cada tipo de usuário a escolher a melhor opção de nuvem pra contratação.
