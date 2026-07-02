@@ -137,3 +137,36 @@ Entender as diferenças entre o IaaS e o PaaS.
 
 ## Aplicação em Cybersecurity
 Todo o conhecimento dessa sessão é importante em cybersecurity pra me ajudar a entender melhor como enxergar o gerenciamento de um site em nuvem. Qual o melhor tipo pra cada site e/ou aplicação além de conseguir visualizar de uma forma mais ampla como posso direcionar cada tipo de usuário a escolher a melhor opção de nuvem pra contratação.
+
+---
+
+
+# Computer Fundamentals - Virtualization Basics
+
+**Status:** Finalizado
+
+---
+
+## O que é a sessão
+A sessão explica o conceito de virtualização — como empresas otimizaram o uso de servidores físicos para reduzir custos e criar ambientes flexíveis e escaláveis.
+
+---
+
+## O que aprendi
+Aprendi sobre como criar máquinas virtuais e como elas funcionam como ambientes seguros para testes de programas e arquivos maliciosos, sem colocar em risco o sistema principal.
+
+O conceito de virtualização pode ser entendido com a analogia de um prédio: o servidor físico é o prédio, as Lab Machines (VMs) são os apartamentos, os aplicativos/sistemas operacionais são os inquilinos, e o Hypervisor é o síndico, o software responsável por dividir o servidor físico em múltiplos virtuais, dando a cada VM seu pedaço de CPU, memória e armazenamento, mantendo tudo isolado e gerenciando o ciclo de vida das máquinas.
+
+Existem dois tipos de Hypervisor: **Tipo 1**, que roda diretamente no hardware físico (mais rápido e eficiente, ideal para servidores e ambientes profissionais), e **Tipo 2**, que roda dentro de um sistema operacional existente (mais fácil de instalar, ideal para aprendizado, testes e pequenos setups).
+
+Também aprendi sobre **Containers**, se as VMs são apartamentos completos com tudo próprio, os containers são quartos dentro do apartamento que compartilham o SO do host, mas têm seu próprio espaço isolado. Por isso são mais leves e iniciam quase instantaneamente. A ferramenta mais comum para containers é o **Docker**.
+
+---
+
+## O que foi mais difícil
+Entender a diferença entre VMs e Containers, já que ambos são formas de isolamento, mas funcionam em níveis diferentes.
+
+---
+
+## Aplicação em Cybersecurity
+Virtualização é fundamental em segurança por permitir criar ambientes isolados para testar arquivos maliciosos sem risco ao sistema real. O isolamento entre VMs garante que, se uma for comprometida, as outras continuam funcionando — o mesmo princípio que vimos com Load Balancers e Health Checks. Além disso, o próprio TryHackMe usa VMs para que você possa praticar ataques e defesas em ambientes controlados e seguros.
